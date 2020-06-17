@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.price-plan {
+  width: 80%;
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.price-plan li {
+  float: left;
+  width: 33.3%;
+  padding: 30px;
+}
+
+.price-card {
+  height: 300px;
+  background-color: aqua;
+  text-align: center;
+}
+/* ВАШ КОД НИЖЕ */
+body {
+  font-family: sans-serif;
+  background: rgba(246,246,246,1);
+  background: -moz-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(243,247,250,1) 32%, rgba(195,206,226,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(246,246,246,1)), color-stop(32%, rgba(243,247,250,1)), color-stop(100%, rgba(195,206,226,1)));
+  background: -webkit-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(243,247,250,1) 32%, rgba(195,206,226,1) 100%);
+  background: -o-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(243,247,250,1) 32%, rgba(195,206,226,1) 100%);
+  background: -ms-linear-gradient(top, rgba(246,246,246,1) 0%, rgba(243,247,250,1) 32%, rgba(195,206,226,1) 100%);
+  background: linear-gradient(to bottom, rgba(246,246,246,1) 0%, rgba(243,247,250,1) 32%, rgba(195,206,226,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#c3cee2', GradientType=0 );
+}
+
+#card-pink {
+  background: rgb(240,145,249);
+  background: linear-gradient(180deg, rgba(240,145,249,1) 0%, rgba(245,87,110,1) 100%);
+}
+
+#card-blue {
+  background: rgb(102,224,209);
+  background: linear-gradient(180deg, rgba(102,224,209,1) 0%, rgba(30,157,254,1) 100%);
+}
+
+#card-pigeon {
+  background: rgb(106,122,233);
+  background: linear-gradient(180deg, rgba(106,122,233,1) 0%, rgba(119,73,163,1) 100%);
+}
+
+#card-pink, #card-blue, #card-pigeon {
+  height: 400px;
+  margin-bottom: 44px;
+  -webkit-box-shadow: -2px 8px 6px 5px rgba(175,184,201,0.86);
+  -moz-box-shadow: -2px 8px 6px 5px rgba(175,184,201,0.86);
+  box-shadow: -2px 8px 6px 5px rgba(175,184,201,0.86);
+}
+
+div.price-card {
+  border-radius: 7px;
+}
+
+h1 {
+  color: white;
+  padding: 17px 50px;
+  font-weight: 300;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+
+.price {
+  padding: 20px 17px;
+  color: #acacac;
+}
+
+.value {
+font-size: 150%;
+}
+
+.performance {
+  text-align: left;
+}
+
+.items {
+
+}
+
+.record {
+  display: inline-block;
+  width: 80%;
+  color: #d0d0d0;
+  font-size: 12px;
+  padding: 9px 10px;
+}
+
+.mark {
+  display: inline-block;
+  width: 15%;
+  color: #b1b1b1;
+  text-align: right;
+  vertical-align: top;
+  padding: 9px 10px;
+}
+
+p.subscribe {
+  color: white;
+  padding: 35px 45px;
+}
